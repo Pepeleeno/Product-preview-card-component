@@ -1,0 +1,101 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  height: 450px;
+  width: 600px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.left-section {
+  width: 300px;
+  height: 450px;
+  background-image:url('/images/image-product-desktop.jpg');
+  background-size: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.right-section {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 300px;
+  height: 450px;
+  background-color: white;
+}
+
+.right-section p {
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.title {
+  font-family: Montserrat;
+  color: grey;
+}
+
+.product-name {
+  font-family: Fraunces;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.description {
+  font-family: montserrat;
+  margin-top: 20px;
+  color: grey;
+  line-height: 23px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+}
+
+.discount-price {
+  font-family: Fraunces;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.old-price {
+  font-family: montserrat;
+  text-decoration: line-through;
+  color: grey;
+}
+
+.button {
+  text-align: center;
+  position: relative;
+}
+
+.cart-icon {
+  position: absolute;
+  left: 85px;
+  top: 15px;
+}
+
+.add-to-cart {
+  background-color: hsl(158, 36%, 37%);
+  padding: 15px 90px;
+  border: none;
+  color: white;
+  font-family: montserrat;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.add-to-cart:hover {
+  background-color: hsl(159, 34%, 23%);
+}
+
+
